@@ -7,7 +7,7 @@ class MyApp(App):
     def btn_press(self, instance):
         print("Button is pressed")
         if instance.text == "iamPressed":
-            instance.text = "Pressed"
+            instance.text = "Pressed_test"
         else:
             instance.text = "iamPressed"
 
