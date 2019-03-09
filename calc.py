@@ -11,5 +11,8 @@ class MyApp(App):
         else:
             instance.text = "iamPressed"
 
+    def can(self):
+        pass
+
 if __name__ == "__main__":
     MyApp().run()
